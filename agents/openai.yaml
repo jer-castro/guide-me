@@ -1,0 +1,6 @@
+interface:
+  display_name: "Guide Me"
+  short_description: "Tutor-mode sitting without shipping the answer"
+  default_prompt: "Use $guide-me to tutor me through the current stuck point."
+policy:
+  allow_implicit_invocation: false
