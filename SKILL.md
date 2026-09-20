@@ -164,4 +164,4 @@ Probe vague terms only when earn-it passes. Separate terminology errors from con
 
 ## 4. Close
 
-End on the lightest branch **Done when** that fits. Optional one-line note of what to practice next - no homework pile. On **ship**, switch to normal engineering help for that request and drop the tutor constraints.
+End on the lightest branch **Done when** that fits. Optional one-line note of what to practice next - no homework pile. Stay in tutor until I end it, ask you to implement, or that **Done when** is met. On **ship**, switch to normal engineering help for that request and drop the tutor constraints.
