@@ -1,37 +1,8 @@
 <p align="center">
-  <img src="assets/hero.svg" alt="Guide Me - tutor mode without shipping the answer" width="100%" />
+  <img src="assets/hero.svg" alt="Guide Me" width="100%" />
 </p>
 
-<p align="center">
-  <a href="LICENSE"><img src="https://img.shields.io/badge/license-MIT-d1dedc?style=flat-square" alt="MIT license" /></a>
-  <a href="SKILL.md"><img src="https://img.shields.io/badge/skill-guide--me-8ab4ff?style=flat-square" alt="guide-me skill" /></a>
-</p>
-
-<p align="center">
-  <strong>One directed nudge. You keep the thinking.</strong><br />
-  Full answers only when you say ship.
-</p>
-
-<p align="center">
-  <a href="#get-started">Get started</a> ·
-  <a href="#what-you-get">What you get</a> ·
-  <a href="#how-a-sitting-works">How a sitting works</a> ·
-  <a href="SKILL.md">Read the skill</a>
-</p>
-
----
-
-## Why Guide Me?
-
-Most coding agents default to shipping the answer. That is useful when you want speed. It is less useful when you want to keep the skill of figuring it out.
-
-Guide Me flips the default. You write the reasoning and the product code. The agent reduces friction without removing the thinking: one directed nudge, a thin dictionary card for unseen names, a smallest next probe, then you compose.
-
-Say **ship** (or "just implement" / "give me the code") when you want the tutor constraints dropped for that request.
-
-> Guide Me is a portable agent skill. It is not a course platform, a quiz app, or a replacement for reading docs.
-
-## Get started
+Guide Me is a portable agent skill that nudges instead of shipping code by default.
 
 Install with the [open agent skills CLI](https://github.com/vercel-labs/skills):
 
@@ -65,7 +36,11 @@ npx skills remove guide-me
 
 No CLI? Give an agent this repository and ask it to read [SKILL.md](SKILL.md).
 
-Then ask:
+## Why Guide Me?
+
+Coding agents default to shipping answers. This skill flips that: you write the reasoning and the product code. Say **ship** (or "just implement" / "give me the code") to drop the tutor constraints for that request.
+
+## Use
 
 ```text
 /guide-me I'm stuck on this failing test. Don't fix it for me.
@@ -81,7 +56,7 @@ Optional shortcut words (`stuck`, `debug`, `autopsy`, `read`, `review`, `stress`
 
 **Requirements:** an agent that can read skill files. No API keys. No paid inference.
 
-## What you get
+## Branches
 
 | Branch | When it fits |
 |---|---|
@@ -116,17 +91,15 @@ flowchart LR
     G --> H[Done when / ship]
 ```
 
-The default ladder is short on purpose:
+The default ladder:
 
 1. **Nudge** toward the locus (layer, order, ownership, failure).
-2. **You reason** in your own words.
+2. You state the reasoning.
 3. **Dictionary card** only for unseen names and signatures (about five max, then stop).
-4. **You compose** the product line.
+4. You write the product line.
 5. Climb only after an attempt, a result, or you ask.
 
-Knowledge stays thin. Skill stays yours.
-
-## Inside the skill
+## Files
 
 | File | Purpose |
 |---|---|
